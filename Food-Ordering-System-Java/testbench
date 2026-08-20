@@ -1,0 +1,24 @@
+public class FoodOrderingTest {
+
+    public static void main(String[] args) {
+
+        FoodOrderingSystem.total = 0;
+
+        if (FoodOrderingSystem.order(1, 2))
+            System.out.println("Test 1: PASS");
+        else
+            System.out.println("Test 1: FAIL");
+
+        if (FoodOrderingSystem.total == 400)
+            System.out.println("Test 2: PASS");
+        else
+            System.out.println("Test 2: FAIL");
+
+        if (!FoodOrderingSystem.order(10, 1))
+            System.out.println("Test 3: PASS");
+        else
+            System.out.println("Test 3: FAIL");
+
+        System.out.println("Testing Completed.");
+    }
+}

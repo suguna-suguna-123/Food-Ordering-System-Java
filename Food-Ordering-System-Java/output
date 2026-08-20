@@ -1,0 +1,13 @@
+===== FOOD ORDERING SYSTEM =====
+
+===== FOOD MENU =====
+1. Pizza - Rs.200
+2. Burger - Rs.100
+3. Biryani - Rs.180
+4. Sandwich - Rs.80
+
+Enter food number: 1
+Enter quantity: 2
+
+Order placed successfully!
+Total Bill: Rs.400
